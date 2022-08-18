@@ -4,7 +4,7 @@ import { ResumeStyles } from './ResumeStyles'
 const Resume = () => {
   return (
     <ResumeStyles>
-      <iframe src="https://drive.google.com/file/d/19dkqL0OOqJd7HUf1bxkxpFcieSeO9aXz/preview"  allow="autoplay"></iframe>
+      <iframe src="https://drive.google.com/file/d/1UeFKp8knCRFSd2PfGvss3HWcIcnOJVJ6/preview" allow="autoplay"></iframe>
     </ResumeStyles>
   )
 }
