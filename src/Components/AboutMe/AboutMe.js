@@ -19,7 +19,7 @@ const AboutMe = () => {
           <img src={svg2} alt="svg" />
           </div>
           <div className="info">
-          <p>The first time I saw a SpaceX rocket land on its own and subsequently stumbling across Lex fridman's podcast on youtube back in 2018, my inner tech geek was aroused. <br /> So After graduating from University, I decided to get into technology. I chose the self-taught route. <br />Using udemy courses, documentation, youtube and the almighty stackoverflow, I dived into machine learning then after getting a google certificate in data analytics I proceeded to web development . <br /> I've got to say, the ability to create sites and algorithms has been one of the most interesting and jaw dropping experinces in my life. Cheers to building more, hopefully with you!!!</p>
+          <p>The first time I saw a SpaceX rocket land on its own and subsequently stumbling across Lex fridman's podcast on youtube back in 2020, my inner tech geek was instantly aroused. <br /> So I decided to get into technology while working at another job. <br />Using udemy courses, documentation, youtube and the almighty stackoverflow, I dived into machine learning, then after getting a google certificate in data analytics, I proceeded to web development . <br /> I've got to say, the ability to create sites and algorithms has been one of the most interesting and jaw dropping experiences of my life. Cheers to building more, hopefully with you!!!</p>
         </div>
         
         </div>

@@ -74,23 +74,23 @@ export const ContactFormStyles = styled.div`
      }
     }
     .btn{
-     border-radius: 5px;
-     background-color: #02659e;
-     cursor: pointer;
-     color: aliceblue;
-     padding: 10px ;
-     font-size:15px;
-     font-weight:600;
-     margin:10px;
-     display: flex;
-     align-items:center;
-     justify-content:center;
-     border:none;
-     width:30%;
-     outline: none;
-     &:hover{
-       
-     }
+      border-radius: 5px;
+      background-color: #02659e;
+      cursor: pointer;
+      color: aliceblue;
+      padding: 10px ;
+      font-size:15px;
+      font-weight:600;
+      margin:10px;
+      display: flex;
+      align-items:center;
+      justify-content:center;
+      border:none;
+      width:30%;
+      outline: none;
+      &:hover{
+        background-color:#03a9fc;
+      }
       
     }
   }

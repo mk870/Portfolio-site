@@ -11,7 +11,6 @@ import { HomeStyles } from './HomeStyles'
 const Home = () => {
   return (
     <HomeStyles>
-      <Navbar/>
       <div className="introduction">
         <Introduction/>
       </div>
@@ -25,9 +24,7 @@ const Home = () => {
       <div className="form">
         <ContactForm/>
       </div>
-      <Footer/>
     </HomeStyles>
-    
   )
 }
 

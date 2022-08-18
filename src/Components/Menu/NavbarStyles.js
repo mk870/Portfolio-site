@@ -9,7 +9,7 @@ export const NavbarStyles = styled.div`
   background-color: black;
   top:0;
   z-index:10;
-  width:100%;
+  //width:100%;
   padding:10px;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -27,9 +27,10 @@ export const NavbarStyles = styled.div`
   justify-content: space-between;
   align-items: center;
   flex-direction:row;
-  width: 30%;
+  width: 40%;
   margin:5px 25px 7px 7px;
     .linkedIn{
+      margin-right:5px;
       a{
         display:flex;
         justify-content:center;
@@ -45,6 +46,7 @@ export const NavbarStyles = styled.div`
       }
     }
     .github{
+      margin-right:5px;
       a{
         display:flex;
         justify-content:center;
@@ -60,7 +62,7 @@ export const NavbarStyles = styled.div`
       }
     }
     .resume{
-      a{
+      
         display:flex;
         justify-content:center;
         align-items:center;
@@ -72,8 +74,23 @@ export const NavbarStyles = styled.div`
           background-color: rgba(44, 48, 61, 0.8);
           border-radius:7px;
         }
-      }
+      
     }
+    .home{
+      margin-right:5px;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      flex-direction:column;
+      padding:7px;
+      text-decoration:none;
+      &:hover{
+        cursor:pointer;
+        background-color: rgba(44, 48, 61, 0.8);
+        border-radius:7px;
+      }
+    
+  }
   }
   @media (max-width:500px) {
     .name{
