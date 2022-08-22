@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { NavbarStyles } from './NavbarStyles'
 import {ImLinkedin} from 'react-icons/im'
-import {FcHome} from 'react-icons/fc'
 import {BsGithub} from 'react-icons/bs'
-import {IoDocumentText} from 'react-icons/io5'
 import {AiOutlineClose} from 'react-icons/ai'
 import {HiMenu} from 'react-icons/hi'
 import Dropdown from './Dropdown'
@@ -37,11 +35,7 @@ const Navbar = () => {
         mkhue47@gmail.com
       </div>
       {desktopMenu?<div className="details">
-        <div className="home" onClick={()=>navigate('/')}>
-            <FcHome fontSize={23} color={'aliceblue'}/>
-            <span>Home</span>
-          
-        </div>
+        
         <div className="linkedIn">
           <a href={'https://www.linkedin.com/in/mkhululi-ndlovu-28ab9b248'} target="_blank" rel='noreferrer'>
             <ImLinkedin fontSize={23} color={'aliceblue'}/>
@@ -54,11 +48,7 @@ const Navbar = () => {
             <span>Github</span>
           </a>
         </div>
-        <div className="resume" onClick={()=>navigate('/resume')}>
-            <IoDocumentText fontSize={23} color={'aliceblue'}/>
-            <span>Resume</span>
-          
-        </div>
+        
       </div>: 
         <div className='mobile'>
           <div className="menu" >

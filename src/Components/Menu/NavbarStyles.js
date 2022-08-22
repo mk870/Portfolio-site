@@ -27,7 +27,7 @@ export const NavbarStyles = styled.div`
   justify-content: space-between;
   align-items: center;
   flex-direction:row;
-  width: 40%;
+  width: 25%;
   margin:5px 25px 7px 7px;
     .linkedIn{
       margin-right:5px;
