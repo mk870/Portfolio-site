@@ -1,7 +1,7 @@
 import React from 'react'
 import { TechStackStyles } from './TechStackStyles'
 import {FcComboChart, FcGoogle} from 'react-icons/fc'
-import {SiSpringboot,SiJsonwebtokens,SiFlask,SiJupyter,SiPandas,SiScikitlearn,SiPython, SiJavascript, SiJava, SiStyledcomponents, SiTensorflow, SiRedux, SiNumpy,SiNextdotjs, SiApollographql, SiHibernate, SiGraphql, SiTableau} from 'react-icons/si'
+import {SiSpringboot,SiJsonwebtokens,SiFlask,SiJupyter,SiPandas,SiScikitlearn,SiPython, SiJavascript, SiJava, SiStyledcomponents, SiTensorflow, SiRedux, SiNumpy,SiNextdotjs, SiApollographql, SiHibernate, SiGraphql, SiTableau, SiTypescript, SiIonic} from 'react-icons/si'
 import {GrReactjs,GrMysql} from 'react-icons/gr'
 import {AiOutlineHtml5} from 'react-icons/ai'
 import {IoLogoCss3} from 'react-icons/io5'
@@ -33,6 +33,14 @@ const TechStack = () => {
           <div className="skill">
             <SiRedux color='purple' fontSize={29}/>
             <span>Redux</span>
+          </div>
+          <div className="skill">
+            <SiIonic color='#0388fc' fontSize={29}/>
+            <span>Ionic-Framework</span>
+          </div>
+          <div className="skill">
+            <SiTypescript color='#0388fc' fontSize={29}/>
+            <span>TypeScript</span>
           </div>
           <div className="skill">
             <SiJavascript color='yellow' fontSize={29}/>
