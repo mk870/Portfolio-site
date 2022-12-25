@@ -1,31 +1,29 @@
-import React from 'react'
-import AboutMe from '../AboutMe/AboutMe'
-import ContactForm from '../ContactForm/ContactForm'
-import Footer from '../Footer/Footer'
-import Introduction from '../Introduction/Introduction'
-import Navbar from '../Menu/Navbar'
-import Projects from '../Projects/Projects'
-import TechStack from '../TechStack/TechStack'
-import { HomeStyles } from './HomeStyles'
+import React from "react";
+import AboutMe from "../AboutMe/AboutMe";
+import ContactForm from "../ContactForm/ContactForm";
+import Introduction from "../Introduction/Introduction";
+import Projects from "../Projects/Projects";
+import TechStack from "../TechStack/TechStack";
+import { HomeStyles } from "./HomeStyles";
 
 const Home = () => {
   return (
     <HomeStyles>
       <div className="introduction">
-        <Introduction/>
+        <Introduction />
       </div>
       <div className="myskills">
-        <TechStack/>
+        <TechStack />
       </div>
-      <Projects/>
+      <Projects />
       <div className="about">
-        <AboutMe/>
+        <AboutMe />
       </div>
       <div className="form">
-        <ContactForm/>
+        <ContactForm />
       </div>
     </HomeStyles>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
