@@ -33,10 +33,8 @@ const Introduction = () => {
           <div className="descr">
             Hi, I'm <span className="name-span">Mkhue.</span>
           </div>
-          <div className="descr">I'm a full Stack Developer </div>
-          <div className="descr">and a Data Scientist.</div>
+          <div className="descr">I'm a software Developer </div>
         </div>
-
         <div className="info">
           <Link to={"#skills"} smooth>
             <span className="skills">Skills </span>
