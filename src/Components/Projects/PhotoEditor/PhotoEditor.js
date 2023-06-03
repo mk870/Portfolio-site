@@ -15,7 +15,7 @@ const PhotoEditor = () => {
   return (
     <ProjectStyles>
       <motion.div ref={ref} animate={animation} className="project">
-        <div className="name">4. Photo Editor App</div>
+        <div className="name">3. Photo Editor App</div>
         <div className="wrapper">
           <div className="info">
             <div className="description">

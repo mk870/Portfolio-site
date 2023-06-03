@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const ProjectStyles = styled.div`
-  
   .project{
     display:flex;
     align-items:center;

@@ -2,62 +2,44 @@ import React from "react";
 import { GrReactjs } from "react-icons/gr";
 import { CgWebsite } from "react-icons/cg";
 import { BsCodeSlash } from "react-icons/bs";
-import { FaTwitter } from "react-icons/fa";
+import { FaSpotify } from "react-icons/fa";
 import { AiFillYoutube } from "react-icons/ai";
 import { BiMoviePlay } from "react-icons/bi";
 import {
-  SiSpringboot,
   SiJsonwebtokens,
-  SiFlask,
-  SiJupyter,
-  SiPandas,
-  SiScikitlearn,
-  SiPython,
   SiJavascript,
-  SiJava,
   SiStyledcomponents,
-  SiNumpy,
-  SiHibernate,
   SiPostgresql,
+  SiRedux,
 } from "react-icons/si";
-import { IoCloudCircleOutline } from "react-icons/io5";
-import movieapp from "../../Assets/movie.png";
+import movieapp from "../../Assets/home.png";
 import { motion } from "framer-motion/dist/framer-motion";
 import { ProjectStyles } from "../ProjectStyles";
 import useAnimate from "../Hooks/useAnimate";
+import ginIcon from "../../Assets/go.png"
+import goIcon from "../../Assets/Go-Logo.png"
+import gormIcon from "../../Assets/gorm.png"
+import { Poster } from "../../TechStack/TechStackStyles";
+import * as styled from './TubeMaxStyles'
 
-const MoviePlus = () => {
+const TubeMax = () => {
   const { ref, animation } = useAnimate();
   return (
     <ProjectStyles>
       <motion.div ref={ref} animate={animation} className="project">
-        <div className="name">1. Movie Recommendation App</div>
+        <div className="name">2. Entertainment App</div>
         <div className="wrapper">
           <div className="info">
             <div className="description">
               <span className="sub-head">App Description:</span>
               <p>
-                This app allows you to search for your favourite movies from a
-                library with over 6000 movies, It has a custom built ML
-                recommendation engine which recommends movies based on content
-                type e.g genre, director and actors
-                <span>
-                  (content based recommendation engine using the Sigmoid
-                  algorithm )
-                </span>
-                .
+                This app allows you to search for your favourite movies, tvShows and music from spotify and TMDB.
                 <br />
-                The app also allows you to add and delete your favourite movies
-                and actors in your own account.
+                The app also allows you to add and delete your favourite movies, tvShows, songs, albums, artists and actors in your own account.
                 <br />
-                It also allows you to watch movie trailers and reviews through
+                It also allows you to watch movie, tvShow trailers, music videos and reviews through
                 the youtube api.
                 <br />
-                Finally, it has a live twitter-sentiment score for each movie
-                using Natural Languange Processing{" "}
-                <span>( Support Vector Machine Algorithm)</span> , in addition
-                you also get to see what people are currently saying about your
-                movie through wordcloud.
               </p>
             </div>
             <div className="techstack">
@@ -75,48 +57,28 @@ const MoviePlus = () => {
                   <span>Styled Components</span>
                 </div>
                 <div className="tech-id">
-                  <SiSpringboot color="green" fontSize={26} />
-                  <span>Spring-boot App</span>
+                  <Poster src={ginIcon} alt="gin-icon"/>
+                  <span>Gin</span>
                 </div>
                 <div className="tech-id">
-                  <SiHibernate color="#fce3a9" fontSize={26} />
-                  <span>Hibernate</span>
+                  <Poster src={gormIcon} alt="gin-icon"/>
+                  <span>Gorm</span>
                 </div>
                 <div className="tech-id">
                   <SiJsonwebtokens color="aliceblue" fontSize={26} />
                   <span>JsonWeb-Token</span>
                 </div>
                 <div className="tech-id">
-                  <SiFlask color="aliceblue" fontSize={26} />
-                  <span>Flask</span>
-                </div>
-                <div className="tech-id">
-                  <SiJupyter color="orange" fontSize={26} />
-                  <span>Jupyter-Notebook</span>
-                </div>
-                <div className="tech-id">
-                  <SiPandas color="#0303a6" fontSize={26} />
-                  <span>Pandas</span>
-                </div>
-                <div className="tech-id">
-                  <SiScikitlearn color="orange" fontSize={26} />
-                  <span>Scikit-Learn</span>
-                </div>
-                <div className="tech-id">
-                  <SiNumpy color="#0471bf" fontSize={26} />
-                  <span>Numpy</span>
-                </div>
-                <div className="tech-id">
                   <SiPostgresql color="aliceblue" fontSize={26} />
                   <span>PostgreSQL</span>
                 </div>
                 <div className="tech-id">
-                  <IoCloudCircleOutline color="purple" fontSize={26} />
-                  <span> Word Cloud</span>
+                  <SiRedux color="purple" fontSize={26} />
+                  <span> Redux</span>
                 </div>
                 <div className="tech-id">
-                  <FaTwitter color="#0388fc" fontSize={26} />
-                  <span> Twitter API</span>
+                  <FaSpotify color="green" fontSize={26} />
+                  <span> Spotify API</span>
                 </div>
                 <div className="tech-id">
                   <BiMoviePlay color="aliceblue" fontSize={26} />
@@ -129,16 +91,12 @@ const MoviePlus = () => {
               <p>Languages Used</p>
               <div className="lang-list">
                 <div className="lang-id">
-                  <SiPython color="#2b4eed" fontSize={26} />
-                  <span>Python</span>
-                </div>
-                <div className="lang-id">
                   <SiJavascript color="yellow" fontSize={26} />
                   <span>Javascript</span>
                 </div>
                 <div className="lang-id">
-                  <SiJava color="aliceblue" fontSize={26} />
-                  <span>Java</span>
+                  <Poster src={goIcon} alt="gin-icon"/>
+                  <span>Golang</span>
                 </div>
                 <div className="lang-id">
                   <SiPostgresql color="aliceblue" fontSize={26} />
@@ -149,7 +107,7 @@ const MoviePlus = () => {
 
             <div className="links">
               <a
-                href="https://github.com/mk870/movie-plus-frontend"
+                href="https://github.com/mk870/EntertainmentApp-Ui"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -159,7 +117,7 @@ const MoviePlus = () => {
                 </div>
               </a>
               <a
-                href="https://movie-plus-frontend.vercel.app"
+                href="https://tube-max.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -171,7 +129,7 @@ const MoviePlus = () => {
             </div>
           </div>
           <div className="image">
-            <img className="moviepic" src={movieapp} alt="movie-app" />
+            <styled.poster src={movieapp} alt="movie-app" />
           </div>
         </div>
       </motion.div>
@@ -179,4 +137,4 @@ const MoviePlus = () => {
   );
 };
 
-export default MoviePlus;
+export default TubeMax;

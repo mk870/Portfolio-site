@@ -1,28 +1,16 @@
 import React from "react";
-import { TechStackStyles } from "./TechStackStyles";
-import { FcComboChart, FcGoogle } from "react-icons/fc";
+import { Poster, TechStackStyles } from "./TechStackStyles";
+import { FcComboChart } from "react-icons/fc";
 import {
-  SiSpringboot,
   SiJsonwebtokens,
-  SiFlask,
-  SiJupyter,
-  SiPandas,
-  SiScikitlearn,
   SiPython,
   SiJavascript,
-  SiJava,
   SiStyledcomponents,
-  SiTensorflow,
   SiRedux,
-  SiNumpy,
-  SiNextdotjs,
-  SiApollographql,
-  SiHibernate,
-  SiGraphql,
-  SiTableau,
   SiTypescript,
-  SiIonic,
   SiPostgresql,
+  SiTailwindcss,
+  SiAzuredevops,
 } from "react-icons/si";
 import { GrReactjs } from "react-icons/gr";
 import { AiOutlineHtml5 } from "react-icons/ai";
@@ -32,6 +20,9 @@ import { FaGitAlt, FaGithub, FaNpm } from "react-icons/fa";
 import { VscCode } from "react-icons/vsc";
 import { motion } from "framer-motion/dist/framer-motion";
 import useAnimate from "../Projects/Hooks/useAnimate";
+import ginIcon from "../Assets/go.png"
+import goIcon from "../Assets/Go-Logo.png"
+import gormIcon from "../Assets/gorm.png"
 
 const TechStack = () => {
   const { ref, animation } = useAnimate();
@@ -49,16 +40,12 @@ const TechStack = () => {
               <span>React</span>
             </div>
             <div className="skill">
-              <SiNextdotjs color="aliceblue" fontSize={29} />
-              <span>Nextjs</span>
-            </div>
-            <div className="skill">
               <SiRedux color="purple" fontSize={29} />
               <span>Redux</span>
             </div>
             <div className="skill">
-              <SiIonic color="#0388fc" fontSize={29} />
-              <span>Ionic-Framework</span>
+              <SiTailwindcss color="#41a2ab" fontSize={29} />
+              <span>Tailwind CSS</span>
             </div>
             <div className="skill">
               <SiTypescript color="#0388fc" fontSize={29} />
@@ -77,10 +64,6 @@ const TechStack = () => {
               <span>CSS</span>
             </div>
             <div className="skill">
-              <SiApollographql color="black" fontSize={29} />
-              <span>Apollo Client</span>
-            </div>
-            <div className="skill">
               <FcComboChart fontSize={29} />
               <span>Chart-js</span>
             </div>
@@ -96,16 +79,16 @@ const TechStack = () => {
           </div>
           <div className="list">
             <div className="skill">
-              <SiJava color="aliceblue" fontSize={29} />
-              <span>Java</span>
+              <Poster src={goIcon} alt="go-icon" />
+              <span>Golang</span>
             </div>
             <div className="skill">
-              <SiSpringboot color="green" fontSize={29} />
-              <span>Springboot</span>
+              <Poster src={ginIcon} alt="gin-icon"/>
+              <span>Gin Framework</span>
             </div>
             <div className="skill">
-              <SiHibernate color="#fce3a9" fontSize={29} />
-              <span>Hibernate</span>
+              <Poster src={gormIcon} alt="gin-icon"/>
+              <span>Gorm</span>
             </div>
             <div className="skill">
               <SiJsonwebtokens color="aliceblue" fontSize={26} />
@@ -116,16 +99,8 @@ const TechStack = () => {
               <span>PostgreSQL</span>
             </div>
             <div className="skill">
-              <SiGraphql color="#fa0af2" fontSize={29} />
-              <span>GraphQL</span>
-            </div>
-            <div className="skill">
               <TbApi color="#0303a6" fontSize={29} />
               <span>RestfulAPI</span>
-            </div>
-            <div className="skill">
-              <SiFlask color="aliceblue" fontSize={29} />
-              <span>Flask</span>
             </div>
             <div className="skill">
               <SiPython color="#0303a6" fontSize={29} />
@@ -134,39 +109,6 @@ const TechStack = () => {
           </div>
         </div>
         <div className="position">
-          <div className="head">
-            <h2>Machine Learning Technologies</h2>
-          </div>
-          <div className="list">
-            <div className="skill">
-              <SiNumpy color="#0303a6" fontSize={29} />
-              <span>Numpy</span>
-            </div>
-            <div className="skill">
-              <SiScikitlearn color="orange" fontSize={29} />
-              <span>Scikit-Learn</span>
-            </div>
-            <div className="skill">
-              <SiTensorflow color="orange" fontSize={29} />
-              <span>Tensorflow</span>
-            </div>
-            <div className="skill">
-              <SiPandas color="#0303a6" fontSize={29} />
-              <span>Pandas</span>
-            </div>
-            <div className="skill">
-              <FcGoogle fontSize={29} />
-              <span>Google Colab</span>
-            </div>
-            <div className="skill">
-              <SiJupyter color="orange" fontSize={29} />
-              <span>Jupyter Notebook</span>
-            </div>
-            <div className="skill">
-              <SiTableau color="#060238" fontSize={29} />
-              <span>Tableau</span>
-            </div>
-          </div>
           <div className="position">
             <div className="head">
               <h2>Tools</h2>
@@ -186,6 +128,10 @@ const TechStack = () => {
               </div>
               <div className="skill">
                 <VscCode color="#0303a6" fontSize={29} />
+                <span>VScode</span>
+              </div>
+              <div className="skill">
+                <SiAzuredevops color="blue" fontSize={29} />
                 <span>VScode</span>
               </div>
             </div>

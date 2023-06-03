@@ -1,12 +1,10 @@
 import React from "react";
 
 import { ProjectsStyles } from "./ProjectsStyles";
-import MoviePlus from "./MovieRecommendation/MoviePlus";
-import CryptoMania from "./CryptoMania/CryptoMania";
 import PhotoEditor from "./PhotoEditor/PhotoEditor";
 import Map from "./Map/Map";
-import PremierLeague from "./PremierLeague/PremierLeague";
-import TokyoOlympix from "./TokyoOlympix/TokyoOlympix";
+import TubeMax from "./EntertainmentApp/TubeMax";
+import REstates from "./RealEstate/REstates";
 
 const Projects = () => {
   return (
@@ -15,12 +13,10 @@ const Projects = () => {
         <h1>Projects</h1>
       </div>
       <div className="list">
-        <MoviePlus />
-        <CryptoMania />
-        <TokyoOlympix />
+        <REstates/>
+        <TubeMax />
         <PhotoEditor />
         <Map />
-        <PremierLeague />
       </div>
     </ProjectsStyles>
   );

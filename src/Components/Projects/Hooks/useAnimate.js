@@ -1,4 +1,5 @@
-import React, { useEffect } from 'react'
+/* eslint-disable react-hooks/exhaustive-deps */
+import { useEffect } from 'react'
 import { useInView } from 'react-intersection-observer'
 import { useAnimation } from 'framer-motion/dist/framer-motion'
 
